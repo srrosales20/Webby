@@ -1,0 +1,118 @@
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+  }
+  
+.navbar-nav li a:hover {
+    color: #1abc9c !important;
+  }
+  
+
+ * {
+      box-sizing: border-box;
+    }
+    
+    .bg-image {
+    
+      /* Add the blur */
+      filter: blur(1px);
+      -webkit-filter: blur(1px);
+    
+      /* Full height */
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+    
+    }
+
+
+    .main1 {
+
+        background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+
+        border: 5px solid #f1f1f1;
+
+    }
+    
+    .h1{
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        background-color: rgb(245, 240, 240); /* Fallback color */
+        background-color: rgba(158, 138, 239, 0.4); /* Black w/opacity/see-through */
+        color: rgb(10, 7, 19);
+        text-shadow: 2px 2px 5px rgb(233, 233, 245);
+        border: 3px solid #f1f1f1;
+        padding: 15px;
+    
+      }
+      
+  .h3{
+      text-align: center;
+      text-decoration: underline;
+      text-shadow: 2px 2px 5px;
+    }
+    /* Position text in the middle of the page/image */
+ .bg-text {
+      background-color: rgb(245, 240, 240); /* Fallback color */
+      background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+      color: white;
+      text-shadow: 2px 2px 5px rgb(188, 188, 232);
+      font-weight: bold;
+      border: 3px solid #f1f1f1;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 2;
+      width: 60%;
+      padding: 20px;
+      text-align: center;
+    }
+  
+ .container-fluid {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+
+
+.carousel-content {
+    color:black;
+    display:flex;
+    align-items:center;
+}
+
+#text-carousel {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  height: auto;
+  padding: 50px;
+background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+}
+
+
+.capture {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  height: 30%;
+}
+
+.box {
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display:block;
+}
+
+
+
+
